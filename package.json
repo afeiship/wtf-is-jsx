@@ -1,0 +1,24 @@
+{
+  "name": "wtf-is-jsx",
+  "version": "1.0.0",
+  "description": "My work following the \"WTF is JSX\" tutorial. https://jasonformat.com/wtf-is-jsx/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eclopez/wtf-is-jsx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eclopez/wtf-is-jsx/issues"
+  },
+  "homepage": "https://github.com/eclopez/wtf-is-jsx#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-react": "^6.24.1",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-haml": "^1.0.1"
+  }
+}
