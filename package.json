@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "My work following the \"WTF is JSX\" tutorial. https://jasonformat.com/wtf-is-jsx/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "buidl": "gulp",
+    "start": "serve build"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,6 @@
     "babel-preset-react": "^6.24.1",
     "del": "^3.0.0",
     "gulp": "^4.0.0",
-    "gulp-babel": "^7.0.1",
-    "gulp-haml": "^1.0.1"
+    "gulp-babel": "^7.0.1"
   }
 }
