@@ -5,12 +5,12 @@ var del = require("del");
 var paths = {
   scripts: {
     src: "src/js/**/*.js",
-    dest: "build/js/",
+    dest: "dist/js/",
   },
 };
 
 function clean() {
-  return del(["build"]);
+  return del(["dist"]);
 }
 
 function scripts() {
@@ -21,7 +21,7 @@ function scripts() {
 }
 
 function pages() {
-  return gulp.src("src/index.html").pipe(gulp.dest("build"));
+  return gulp.src("src/index.html").pipe(gulp.dest("dist"));
 }
 
 var build = gulp.series(clean, gulp.parallel(scripts, pages));
